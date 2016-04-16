@@ -59,6 +59,40 @@ public class FadeIn extends BaseAnimatorEffects {
     }
 }
 ```
+---
+###注意事项
+* 在你的对话框布局的根布局最外层加一层ViewGroup,例子如下
+```
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+<!--对话框的根布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/bg_shap"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这是基本的对话框界面,您可以任意添加布局"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</FrameLayout>
+
+
+```
 
 
 

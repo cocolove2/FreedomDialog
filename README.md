@@ -15,7 +15,7 @@ freedomDialog是为了解决对话框弹出动画效果的自定义对话框。
 
 ---
 ### 效果图
-
+![pic](https://github.com/cocolove2/FreedomDialog/blob/master/app/screenshot/freedomdialog-screen.gif)
 ---
 ### 使用方式
 

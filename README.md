@@ -1,0 +1,2 @@
+# FreedomDialog
+freedomDialog是为了解决对话框弹出动画效果的自定义对话框

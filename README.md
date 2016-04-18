@@ -7,6 +7,13 @@
 freedomDialog是为了解决对话框弹出动画效果的自定义对话框。
 
 ---
+###Thanks
+
+* ######[NiftyDialogEffects](https://github.com/sd6352051/NiftyDialogEffects)
+
+* ######[sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)
+
+---
 
 ###特性
 * 对话框弹出和退出支持补间动画
